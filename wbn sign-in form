@@ -1,0 +1,43 @@
+<div class="container p-3">
+        <div class="row  border">
+            <div class="col-md-6 py-5 bgclass">
+                <form>
+                    <div class="text-center p-3">
+                        <h2>WELCOME!</h2>
+                        <span>Please sign in to continue</span>
+                    </div>
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <label class="form-label px-2" for="form2Example1">Email address</label>
+                      <input type="email" id="form2Example1" class="form-control" style="border-radius: 25px;" />
+                    </div>
+                  
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                      <label class="form-label px-2" for="form2Example2">Password</label>
+                        <!-- Simple link -->
+                      <input type="password" id="form2Example2" class="form-control" style="border-radius: 25px;"/>
+                    </div>
+                  
+                    <!-- 2 column grid layout for inline styling -->
+                    <div class="row mb-4">
+                      <div class="col d-flex justify-content-center">
+                        <a href="#!">Forgot password?</a>
+                      </div>
+                    
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-4" style="border-radius: 25px;">Sign in</button>
+                    
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                      <p>Not a member? <a href="#!">Register</a></p>
+                    </div>
+                    </div>
+                  </form>
+            </div>
+            <!-------------->
+            <div class="col-md-6 ">
+                <img src="../../../../assets/images/signup.jpg" alt="signin" height="100%" width="100%">                
+            </div>
+        </div>
+</div>
